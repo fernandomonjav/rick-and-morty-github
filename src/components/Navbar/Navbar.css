@@ -1,0 +1,27 @@
+.navbar {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 99;
+  background-color: var(--background-surface);
+}
+
+.navbar__container {
+  padding: 0 1rem;
+  height: var(--header-height);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar__logo {
+  display: flex;
+  align-items: center;
+}
+
+.navbar__logo > span {
+  margin-left: 0.5rem;
+  font-size: 1.125rem;
+  font-weight: var(--font-bold);
+}
